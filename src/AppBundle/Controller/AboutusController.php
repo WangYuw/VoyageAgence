@@ -12,7 +12,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class AboutusController extends Controller
 {
 	/**
-	 * @Route("/aboutus/", name="aboutus")
+	 * @Route("/aboutus", name="aboutus")
 	 * @Method("GET")
 	 */
 	public function aboutusAction()
